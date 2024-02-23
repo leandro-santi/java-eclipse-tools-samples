@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="solitudeworks.rcp.sample.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="solitudeworks.rcp.sample.Perspective"
+            name="RCP Perspective"
+            id="solitudeworks.rcp.sample.perspective">
+      </perspective>
+   </extension>
+
+</plugin>
