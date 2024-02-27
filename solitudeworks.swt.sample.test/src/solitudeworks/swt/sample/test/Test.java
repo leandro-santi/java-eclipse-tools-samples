@@ -8,7 +8,7 @@ import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 
-public class main {
+public class Test {
 
 	protected Shell shell;
 	private Text txtAline;
@@ -19,7 +19,7 @@ public class main {
 	 */
 	public static void main(String[] args) {
 		try {
-			main window = new main();
+			Test window = new Test();
 			window.open();
 		} catch (Exception e) {
 			e.printStackTrace();
